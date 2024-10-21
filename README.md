@@ -24,3 +24,29 @@
    - **Skill section**: Includes specific designs for presenting the skill bars and other interactive components【9†source】.
 
 These files collectively build the structure, style, and animations for a professional portfolio website. The index.html manages the content, while the CSS files enhance the design with styling and animations.
+
+4. **index.js**:
+   - This JavaScript file acts as the main functionality controller for the website. It includes multiple functions that handle interactions on the page. Key features include:
+     - **Page loading animations**: It manages the fade-in and fade-out of the loading screens using jQuery.
+     - **Color Scheme Toggle**: The file contains logic to toggle between light and dark mode for the website's theme.
+     - **Menu Toggler**: Handles the functionality to show and hide the menu.
+     - **Hero Section**: Manages background image transitions and carousel behavior in the hero section.
+     - **Typed.js**: Implements the typed text animation.
+     - **Portfolio Popup**: Handles portfolio items' display using popup functionality.
+     - **Google Maps**: Integrates a Google Maps display feature within the contact section.
+     - **Miscellaneous Animations**: Includes functionalities for section scrolling, skill bar animations, and counters【17†source】.
+
+5. **jquery-3.6.0.min.js**:
+   - This is the compressed jQuery 3.6.0 library file, which provides a wide range of functionalities for DOM manipulation, event handling, animations, and AJAX interactions. It is an essential library for handling dynamic content and interactivity on the page. Being a minimized version, it’s not meant for editing but for performance【18†source】.
+
+6. **plugins.js**:
+   - This file contains various third-party plugin integrations that add functionality to the webpage. Some of the key plugins include:
+     - **Bootstrap**: For responsive design elements.
+     - **Pagepiling**: A plugin for creating vertical scrolling websites.
+     - **Owl Carousel & Swiper**: For creating carousels and sliders in different sections of the site.
+     - **Typed.js**: For typed text animations.
+     - **Isotope**: Used to filter and sort portfolio items with animations.
+     - **Magnific Popup**: For handling popups with images or videos in the portfolio.
+     - **CountUp**: A counter animation plugin for counting numbers in sections like achievements or skills【19†source】.
+
+Each file in this project handles a crucial part of building the interactive and dynamic features of the wallet project site, with **index.js** managing the core logic, **jQuery** providing base functionalities, and **plugins.js** adding extra features through third-party tools.
